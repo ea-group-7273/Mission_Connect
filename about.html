@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .home-bg {
+            display: flex;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            padding-top: 140px;
+        }
+        
+        .about-section {
+            z-index: 4;
+        }
+        
+        .logo-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            float: left;
+            margin: 10px;
+        }
+        
+        .dev-photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid white;
+        }
+        
+        .developer-card {
+            text-align: center;
+        }
+        
+        .developer-card h5 {
+            margin-top: 10px;
+            font-size: 16px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+        <div class="container">
+            <a class='navbar-brand logo' href='index_1.html'>
+                <h1>MISSION CONNECT</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+            <div class="nav-blur">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="main_home.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="campaigns.html" class="nav-link">Campaigns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">one more</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="works.html" class="nav-link">Works</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home-bg section h-100vh d-flex align-items-start" id="home">
+        <div class="bg-overlay"></div>
+        <div class="container z-index">
+            <div class="text-white text-center">
+                <img src="assets/images/logo.jpg" alt="Mission Connect Logo" class="img-fluid logo-circle">
+                <h2>Connecting Communities, Empowering Change</h2>
+                <p style="text-align: left;">Mission Connect is dedicated to bridging the gap between organizations and communities by providing innovative solutions for volunteer management, campaign coordination, and resource allocation. Our platform empowers organizations to maximize
+                    their impact and foster positive change.</p>
+                <p style="text-align: left;">The idea for this project was brought up in the light of the devastating floods and landslides in Kerala, which highlighted the need for a unified system to streamline disaster response and resource management.</p>
+                <p style="text-align: left;">We believe in the power of collaboration and strive to create tools that help non-profits and governmental bodies efficiently achieve their goals, whether it’s organizing campaigns, managing inventory, or raising funds.</p>
+                <br>
+                <br>
+                <h3 style="text-align: left;">Developers</h3>
+                <div class="row text-white">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="developer-card">
+                            <img src="assets/images/edwin.jpg" alt="Edwin Arun" class="dev-photo">
+                            <h5 class="mt-2">Edwin Arun</h5>
+                            <h6 class="mt-2">Lead & Only Developer</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="developer-card">
+                            <img src="assets/images/bibin.jpg" alt="Bibin Roy" class="dev-photo">
+                            <h5 class="mt-2">Bibin Roy</h5>
+                            <h6 class="mt-2">Nokki Irunna Developer</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="developer-card">
+                            <img src="assets/images/manu.jpg" alt="Manu J" class="dev-photo">
+                            <h5 class="mt-2">Manu J</h5>
+                            <h6 class="mt-2">Nokki Irunna Developer</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="developer-card">
+                            <img src="assets/images/amaan.jpg" alt="Muhammed Amaan Sudheer" class="dev-photo">
+                            <h5 class="mt-2">Muhammed Amaan Sudheer</h5>
+                            <h6 class="mt-2">Nokki Irunna Developer</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+        <div class="container">
+            <a class='navbar-brand logo' href='index_1.html'>
+                <h1>MISSION CONNECT</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+            <div class="nav-blur">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="campaigns.html" class="nav-link">Campaigns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="services.html" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">one more</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="works.html" class="nav-link">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home-bg section h-100vh" id="home">
+        <div class="bg-overlay"></div>
+        <div class="container z-index">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="text-white text-center">
+                        <h4>Hello & Welcome</h4>
+                        <h1 class="header_title mb-0 mt-3">Be A <span class="element fw-bold" data-elements="Donor.,Beacon Of Hope."></span></h1>
+                        <ul class="social_home list-unstyled text-center pt-4">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=61566918985673&mibextid=ZbWKwL"><i class="mdi mdi-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/mission_connect_?igsh=MWlzb202ZGF2Y2RuYw=="><i class="mdi mdi-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
+                        </ul>
+
+                        <div class="header_btn">
+                            <button class="btn btn-outline-custom btn-rounded mt-4" onclick="location.href='donor_authentication.html'">
+                              <div class="original">SIGN IN</div>
+                              <div class="letters">
+                                <span>S</span>
+                                <span>I</span>
+                                <span>G</span>
+                                <span>N</span>
+                                &nbsp;
+                                <span>I</span>
+                                <span>N</span>
+                              </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll_down">
+            <a href="#about" class="scroll">
+                <i class="mbri-arrow-down text-white"></i>
+            </a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script>
+        $(".element").each(function() {
+            var $this = $(this);
+            $this.typed({
+                strings: $this.attr('data-elements').split(','),
+                typeSpeed: 100,
+                backDelay: 3000
+            });
+        });
+    </script>
+</body>
+
+</html>
